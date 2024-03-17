@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="">
+        <menu>
+
+            <item android:title="Recensement"
+                android:id="@+id/nav_recensement"
+                app:showAsAction="never"/>
+            <item android:title="Synchronisation"
+            android:id="@+id/nav_synchronisation"
+            app:showAsAction="never"/>
+            <item android:title="Profil"
+                android:id="@+id/nav_profil"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
